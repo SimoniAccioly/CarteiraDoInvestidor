@@ -1,0 +1,12 @@
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.Application.deps.json
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.Application.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.Application.pdb
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.csproj.AssemblyReference.cache
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.AssemblyInfoInputs.cache
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.AssemblyInfo.cs
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.csproj.CoreCompileInputs.cache
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\refint\CarteiraDoInvestidor.Application.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.pdb
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\ref\CarteiraDoInvestidor.Application.dll

@@ -1,0 +1,12 @@
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\bin\Debug\net6.0\CarteiraDoInvestidor.Repository.deps.json
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\bin\Debug\net6.0\CarteiraDoInvestidor.Repository.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\bin\Debug\net6.0\CarteiraDoInvestidor.Repository.pdb
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\obj\Debug\net6.0\CarteiraDoInvestidor.Repository.csproj.AssemblyReference.cache
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\obj\Debug\net6.0\CarteiraDoInvestidor.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\obj\Debug\net6.0\CarteiraDoInvestidor.Repository.AssemblyInfoInputs.cache
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\obj\Debug\net6.0\CarteiraDoInvestidor.Repository.AssemblyInfo.cs
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\obj\Debug\net6.0\CarteiraDoInvestidor.Repository.csproj.CoreCompileInputs.cache
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\obj\Debug\net6.0\CarteiraDoInvestidor.Repository.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\obj\Debug\net6.0\refint\CarteiraDoInvestidor.Repository.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\obj\Debug\net6.0\CarteiraDoInvestidor.Repository.pdb
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Repository\obj\Debug\net6.0\ref\CarteiraDoInvestidor.Repository.dll
