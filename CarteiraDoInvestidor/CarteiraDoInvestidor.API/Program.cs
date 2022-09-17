@@ -4,6 +4,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+//builder.Services
+                //  .RegisterApplication()
+                //  .RegisterRepository(builder.Configuration.GetConnectionString/("CarteiraDoInvestidor"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

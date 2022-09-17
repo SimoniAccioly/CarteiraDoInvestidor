@@ -10,3 +10,10 @@ D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraD
 D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\refint\CarteiraDoInvestidor.Application.dll
 D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.pdb
 D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\ref\CarteiraDoInvestidor.Application.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.CrossCuting.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.Domain.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.Repository.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.Domain.pdb
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.Repository.pdb
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.CrossCuting.pdb
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.csproj.CopyComplete
