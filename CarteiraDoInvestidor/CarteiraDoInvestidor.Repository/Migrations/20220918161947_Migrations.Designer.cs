@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarteiraDoInvestidor.Repository.Migrations
 {
     [DbContext(typeof(CarteiraDoInvestidorContext))]
-    [Migration("20220918143552_Migrations")]
+    [Migration("20220918161947_Migrations")]
     partial class Migrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -47,6 +47,9 @@ namespace CarteiraDoInvestidor.Repository.Migrations
 
                     b.Property<int>("Quantidade")
                         .HasColumnType("int");
+
+                    b.Property<double>("TaxaDeCorretagem")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 

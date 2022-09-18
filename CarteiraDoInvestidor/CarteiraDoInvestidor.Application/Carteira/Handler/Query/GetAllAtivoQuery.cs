@@ -10,11 +10,11 @@ namespace CarteiraDoInvestidor.Application.Carteira.Handler.Query
 
     public class GetAllAtivoQueryResponse
     {
-        public IList<AtivosOutputDto> Ativoss { get; set; }
+        public IList<AtivosOutputDto> Ativos { get; set; }
 
         public GetAllAtivoQueryResponse(IList<AtivosOutputDto> ativos)
         {
-            Ativoss = ativos;
+            Ativos = ativos;
         }
     }
 }

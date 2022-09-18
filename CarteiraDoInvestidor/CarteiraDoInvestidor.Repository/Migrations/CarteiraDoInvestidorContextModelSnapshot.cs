@@ -46,6 +46,9 @@ namespace CarteiraDoInvestidor.Repository.Migrations
                     b.Property<int>("Quantidade")
                         .HasColumnType("int");
 
+                    b.Property<double>("TaxaDeCorretagem")
+                        .HasColumnType("float");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CarteiraId");

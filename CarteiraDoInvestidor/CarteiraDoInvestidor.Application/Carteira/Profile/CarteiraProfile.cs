@@ -16,7 +16,6 @@ namespace CarteiraDoInvestidor.Application.Carteira.Profile
 
             CreateMap<CarteiraDoInvestidor.Domain.Carteira.Carteira, CarteiraOutputDto>();
 
-            CreateMap<CarteiraUpdateDto, CarteiraDoInvestidor.Domain.Carteira.Carteira>();
         }
     }
 }

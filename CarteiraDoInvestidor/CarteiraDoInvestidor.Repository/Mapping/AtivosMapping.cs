@@ -20,6 +20,7 @@ namespace CarteiraDoInvestidor.Repository.Mapping
             builder.Property(x => x.Quantidade).IsRequired();
             builder.Property(x => x.PrecoMedio).IsRequired();
             builder.Property(x => x.Corretora).IsRequired();
+            builder.Property(x => x.TaxaDeCorretagem).IsRequired();
 
         }
     }

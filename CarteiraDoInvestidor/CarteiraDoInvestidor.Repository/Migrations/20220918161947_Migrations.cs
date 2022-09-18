@@ -46,6 +46,7 @@ namespace CarteiraDoInvestidor.Repository.Migrations
                     Quantidade = table.Column<int>(type: "int", nullable: false),
                     PrecoMedio = table.Column<double>(type: "float", nullable: false),
                     Corretora = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TaxaDeCorretagem = table.Column<double>(type: "float", nullable: false),
                     CarteiraId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>
