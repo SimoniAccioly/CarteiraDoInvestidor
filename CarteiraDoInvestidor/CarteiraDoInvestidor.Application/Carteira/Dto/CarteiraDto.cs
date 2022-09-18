@@ -8,7 +8,7 @@ namespace CarteiraDoInvestidor.Application.Carteira.Dto
         [Required(ErrorMessage = "Nome do ativo é obrigatório")] string Papel,
         [Required(ErrorMessage = "Quantidade de ativos é obrigatório")] int Quantidade,
         [Required(ErrorMessage = "Preço Médio do ativo é obrigatório")] double PrecoMedio,
-        [Required(ErrorMessage = "Corretora é obrigatório")] string Corretora);
-    public record AtivosOutputDto(Guid Id, string Papel, int Quantidade, double PrecoMedio, string Corretora);
-    public record CarteiraUpdateDto(Guid Id, string NomeCarteira, string Descricao, DateTime DataCriacao);
+        [Required(ErrorMessage = "Corretora é obrigatório")] string Corretora, double TaxaDeCorretagem);
+    public record AtivosOutputDto(Guid Id, string Papel, int Quantidade, double PrecoMedio, string Corretora, double TaxaDeCorretagem);
+   
 }

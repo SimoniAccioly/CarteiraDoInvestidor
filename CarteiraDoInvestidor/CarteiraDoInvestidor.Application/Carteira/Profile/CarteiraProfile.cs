@@ -1,4 +1,5 @@
 ﻿using CarteiraDoInvestidor.Application.Carteira.Dto;
+using CarteiraDoInvestidor.Domain.Carteira;
 
 namespace CarteiraDoInvestidor.Application.Carteira.Profile
 {
@@ -7,9 +8,9 @@ namespace CarteiraDoInvestidor.Application.Carteira.Profile
         public CarteiraProfile()
         {
           
-            CreateMap<CarteiraDoInvestidor.Domain.Carteira.Ativos, AtivosOutputDto>();
+            CreateMap<Ativos, AtivosOutputDto>();
 
-            CreateMap<AtivosInputDto, CarteiraDoInvestidor.Domain.Carteira.Ativos> ();
+            CreateMap<AtivosInputDto, Ativos> ();
 
             CreateMap<CarteiraInputDto, CarteiraDoInvestidor.Domain.Carteira.Carteira>();
 

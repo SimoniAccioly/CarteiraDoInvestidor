@@ -13,6 +13,7 @@ namespace CarteiraDoInvestidor.Domain.Carteira
         public int Quantidade { get; set; }
         public double PrecoMedio { get; set; }
         public string Corretora { get; set; }
+        public double TaxaDeCorretagem { get; set; }
 
 
 
