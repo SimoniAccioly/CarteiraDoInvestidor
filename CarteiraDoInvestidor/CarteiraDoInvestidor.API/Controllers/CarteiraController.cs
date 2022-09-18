@@ -40,7 +40,7 @@ namespace CarteiraDoInvestidor.API.Controllers
         }
 
         [HttpPut]
-        [Route("carteira/editar")]
+        [Route("carteira/editar/{id}")]
         public async Task<IActionResult> Edit([FromBody] CarteiraInputDto dto)
         {
             var result = await this.mediator.Send(new EditCarteiraCommand(dto));

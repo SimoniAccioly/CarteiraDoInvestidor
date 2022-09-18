@@ -3,7 +3,7 @@
 namespace CarteiraDoInvestidor.Application.Carteira.Dto
 {
     public record CarteiraInputDto(string NomeCarteira, string Descricao, DateTime DataCriacao, List<AtivosInputDto> Ativos);
-    public record CarteiraOutputDto(Guid Id, string NomeCarteira, string Descricao, DateTime DataCriacao, List<AtivosInputDto> Ativos);
+    public record CarteiraOutputDto(Guid Id, string NomeCarteira, string Descricao, DateTime DataCriacao, List<AtivosOutputDto> Ativos);
     public record AtivosInputDto(
         [Required(ErrorMessage = "Nome do ativo é obrigatório")] string Papel,
         [Required(ErrorMessage = "Quantidade de ativos é obrigatório")] int Quantidade,

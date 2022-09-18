@@ -12,9 +12,9 @@ namespace CarteiraDoInvestidor.Application.Carteira.Profile
 
             CreateMap<AtivosInputDto, Ativos> ();
 
-            CreateMap<CarteiraInputDto, CarteiraDoInvestidor.Domain.Carteira.Carteira>();
-
             CreateMap<CarteiraDoInvestidor.Domain.Carteira.Carteira, CarteiraOutputDto>();
+
+            CreateMap<CarteiraInputDto, CarteiraDoInvestidor.Domain.Carteira.Carteira>();
 
         }
     }
