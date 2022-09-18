@@ -13,3 +13,5 @@ D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraD
 D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Debug\net6.0\refint\CarteiraDoInvestidor.Domain.dll
 D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Debug\net6.0\CarteiraDoInvestidor.Domain.pdb
 D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Debug\net6.0\ref\CarteiraDoInvestidor.Domain.dll
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\bin\Debug\net6.0\CarteiraDoInvestidor.Domain.runtimeconfig.json
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Debug\net6.0\CarteiraDoInvestidor.Domain.genruntimeconfig.cache

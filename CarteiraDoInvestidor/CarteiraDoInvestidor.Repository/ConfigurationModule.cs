@@ -1,5 +1,8 @@
-﻿using CarteiraDoInvestidor.Repository.Context;
+﻿using CarteiraDoInvestidor.Domain.Carteira.Repository;
+using CarteiraDoInvestidor.Domain.Conta.Repository;
+using CarteiraDoInvestidor.Repository.Context;
 using CarteiraDoInvestidor.Repository.Database;
+using CarteiraDoInvestidor.Repository.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -15,7 +18,9 @@ namespace CarteiraDoInvestidor.Repository
             });
 
             services.AddScoped(typeof(Repository<>));
-
+            services.AddScoped<ICarteiraRepository, CarteiraRepository>();
+            services.AddScoped<IAtivoRepository, AtivosRepository>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
             return services;
         }

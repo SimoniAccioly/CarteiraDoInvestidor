@@ -17,7 +17,17 @@ namespace CarteiraDoInvestidor.Repository.Database
             this.Context = context;
             this.Query = Context.Set<T>();
         }
-        
+
+        public async Task<IDbContextTransaction> CreateTransaction()
+        {
+            return await this.Context.Database.BeginTransactionAsync();
+        }
+
+        public async Task<IDbContextTransaction> CreateTransaction(IsolationLevel isolation)
+        {
+            return await this.Context.Database.BeginTransactionAsync(isolation);
+        }
+
         public async Task Save(T entity)
         {
             await this.Query.AddAsync(entity);
@@ -60,14 +70,6 @@ namespace CarteiraDoInvestidor.Repository.Database
                              .FirstOrDefaultAsync(expression);
         }
 
-        public async Task<IDbContextTransaction> CreateTransaction()
-        {
-            return await this.Context.Database.BeginTransactionAsync();
-        }
-
-        public async Task<IDbContextTransaction> CreateTransaction(IsolationLevel isolation)
-        {
-            return await this.Context.Database.BeginTransactionAsync(isolation);
-        }
+        
     }
 }

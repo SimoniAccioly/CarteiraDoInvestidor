@@ -1,4 +1,4 @@
-﻿using XSystem.Security.Cryptography;
+﻿using System.Security.Cryptography;
 
 namespace CarteiraDoInvestidor.CrossCuting.Utils
 {

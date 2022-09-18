@@ -1,21 +1,44 @@
-var builder = WebApplication.CreateBuilder(args);
+using CarteiraDoInvestidor.Application;
+using CarteiraDoInvestidor.Repository;
+using Microsoft.EntityFrameworkCore;
 
-// Add services to the container.
 
-builder.Services.AddControllers();
+namespace CarteiraDoInvestidor.Api
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services
-                //  .RegisterApplication()
-                //  .RegisterRepository(builder.Configuration.GetConnectionString/("CarteiraDoInvestidor"));
+            // Add services to the container.
 
-var app = builder.Build();
+            builder.Services.AddControllers();
 
-// Configure the HTTP request pipeline.
+            builder.Services
+                   .RegisterApplication()
+                   .RegisterRepository(builder.Configuration.GetConnectionString("CarteiraDoInvestidor"));
 
-app.UseHttpsRedirection();
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
 
-app.UseAuthorization();
+            var app = builder.Build();
 
-app.MapControllers();
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
 
-app.Run();
+            app.UseHttpsRedirection();
+
+            app.UseAuthorization();
+
+            app.MapControllers();
+
+            app.Run();
+        }
+    }
+}

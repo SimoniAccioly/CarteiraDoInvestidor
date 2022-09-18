@@ -17,3 +17,5 @@ D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraD
 D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.Repository.pdb
 D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.CrossCuting.pdb
 D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.csproj.CopyComplete
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\bin\Debug\net6.0\CarteiraDoInvestidor.Application.runtimeconfig.json
+D:\Simoni\Sources\Proj_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Application\obj\Debug\net6.0\CarteiraDoInvestidor.Application.genruntimeconfig.cache
