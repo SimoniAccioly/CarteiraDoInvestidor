@@ -9,7 +9,6 @@ namespace CarteiraDoInvestidor.Domain.Carteira
         public DateTime DataCriacao { get; set; }
         public virtual IList<Ativos> Ativos { get; set; }
 
-
         public int QuantidadeAtivos()
             => this.Ativos.Count;
 

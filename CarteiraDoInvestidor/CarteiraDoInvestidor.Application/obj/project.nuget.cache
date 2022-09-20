@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Za/jhsxAeeAHS+m31n+rXKIxxyb8q4LyScnexgVR74+UyP+6HLetWmkEm51WA1psend1ZsQ/dEDJgkAjvmkV8A==",
+  "dgSpecHash": "qOa6/2tFW9t6Z0CLm4qW24gtHAuU4ckg0yQdNO8Vz/cT0hh/2pAmwB6eq0fh50kwi1OAekQ4Ymaapt8wP1P0yA==",
   "success": true,
-  "projectFilePath": "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Application\\CarteiraDoInvestidor.Application.csproj",
+  "projectFilePath": "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Application\\CarteiraDoInvestidor.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

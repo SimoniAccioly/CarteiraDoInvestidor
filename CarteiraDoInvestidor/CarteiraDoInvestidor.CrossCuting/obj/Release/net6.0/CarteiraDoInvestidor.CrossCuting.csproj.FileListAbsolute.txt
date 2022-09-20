@@ -1,0 +1,14 @@
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\bin\Release\net6.0\CarteiraDoInvestidor.CrossCuting.deps.json
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\bin\Release\net6.0\CarteiraDoInvestidor.CrossCuting.runtimeconfig.json
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\bin\Release\net6.0\CarteiraDoInvestidor.CrossCuting.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\bin\Release\net6.0\CarteiraDoInvestidor.CrossCuting.pdb
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\CarteiraDoInvestidor.CrossCuting.csproj.AssemblyReference.cache
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\CarteiraDoInvestidor.CrossCuting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\CarteiraDoInvestidor.CrossCuting.AssemblyInfoInputs.cache
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\CarteiraDoInvestidor.CrossCuting.AssemblyInfo.cs
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\CarteiraDoInvestidor.CrossCuting.csproj.CoreCompileInputs.cache
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\CarteiraDoInvestidor.CrossCuting.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\refint\CarteiraDoInvestidor.CrossCuting.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\CarteiraDoInvestidor.CrossCuting.pdb
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\CarteiraDoInvestidor.CrossCuting.genruntimeconfig.cache
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.CrossCuting\obj\Release\net6.0\ref\CarteiraDoInvestidor.CrossCuting.dll

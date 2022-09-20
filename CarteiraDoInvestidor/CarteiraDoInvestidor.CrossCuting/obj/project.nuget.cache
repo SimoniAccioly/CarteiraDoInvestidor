@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6BLRY7HbXgaUh267vwXb7lLh7kDpsNQzQRvMgK7NhZvENApwGcymVwU/3Ag1L6xI3mK5yaiBAJBEsDJt/XN5aA==",
+  "dgSpecHash": "OsjA8nhmiT3e+vdH+jTgcvZsRGclFFctY1JlPpzEjvHYjHbzm+/keUHehg7DVbX8gRVdD0VDV2WEqbi8CR1pnQ==",
   "success": true,
-  "projectFilePath": "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.CrossCuting\\CarteiraDoInvestidor.CrossCuting.csproj",
+  "projectFilePath": "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.CrossCuting\\CarteiraDoInvestidor.CrossCuting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

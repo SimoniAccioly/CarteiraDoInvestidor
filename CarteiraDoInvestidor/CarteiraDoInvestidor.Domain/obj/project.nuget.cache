@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dAMlMkFVdsEtY84ydMF91LyJP3HS6kHbpwL4T2At8btvgOLqjOtPpKcZb91m/h58fKNuBGeuoG87WPepulzeDw==",
+  "dgSpecHash": "qZ7eoHDwVxgcDHlFY3YATbHOATChNoA7LwPE0RAYKdVp/v0ZlMYAFFSVKdBOozxRz1Vf4BJ+lGRpi8SZydXQ5w==",
   "success": true,
-  "projectFilePath": "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Domain\\CarteiraDoInvestidor.Domain.csproj",
+  "projectFilePath": "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Domain\\CarteiraDoInvestidor.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",

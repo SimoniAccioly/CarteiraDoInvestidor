@@ -28,6 +28,10 @@ namespace CarteiraDoInvestidor.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("ArquivoExcel")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<Guid?>("CarteiraId")
                         .HasColumnType("uniqueidentifier");
 

@@ -6981,11 +6981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Application\\CarteiraDoInvestidor.Application.csproj",
+      "projectUniqueName": "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Application\\CarteiraDoInvestidor.Application.csproj",
       "projectName": "CarteiraDoInvestidor.Application",
-      "projectPath": "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Application\\CarteiraDoInvestidor.Application.csproj",
+      "projectPath": "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Application\\CarteiraDoInvestidor.Application.csproj",
       "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-      "outputPath": "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Application\\obj\\",
+      "outputPath": "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7005,11 +7005,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Domain\\CarteiraDoInvestidor.Domain.csproj": {
-              "projectPath": "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Domain\\CarteiraDoInvestidor.Domain.csproj"
+            "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Domain\\CarteiraDoInvestidor.Domain.csproj": {
+              "projectPath": "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Domain\\CarteiraDoInvestidor.Domain.csproj"
             },
-            "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Repository\\CarteiraDoInvestidor.Repository.csproj": {
-              "projectPath": "D:\\Simoni\\Sources\\Proj_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Repository\\CarteiraDoInvestidor.Repository.csproj"
+            "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Repository\\CarteiraDoInvestidor.Repository.csproj": {
+              "projectPath": "D:\\Simoni\\Sources\\Projeto_bloco\\CarteiraDoInvestidor\\CarteiraDoInvestidor\\CarteiraDoInvestidor.Repository\\CarteiraDoInvestidor.Repository.csproj"
             }
           }
         }

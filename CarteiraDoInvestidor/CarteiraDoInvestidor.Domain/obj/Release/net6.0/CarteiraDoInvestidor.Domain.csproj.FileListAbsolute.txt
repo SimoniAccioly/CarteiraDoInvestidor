@@ -1,0 +1,17 @@
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\bin\Release\net6.0\CarteiraDoInvestidor.Domain.deps.json
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\bin\Release\net6.0\CarteiraDoInvestidor.Domain.runtimeconfig.json
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\bin\Release\net6.0\CarteiraDoInvestidor.Domain.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\bin\Release\net6.0\CarteiraDoInvestidor.Domain.pdb
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\bin\Release\net6.0\CarteiraDoInvestidor.CrossCuting.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\bin\Release\net6.0\CarteiraDoInvestidor.CrossCuting.pdb
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\CarteiraDoInvestidor.Domain.csproj.AssemblyReference.cache
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\CarteiraDoInvestidor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\CarteiraDoInvestidor.Domain.AssemblyInfoInputs.cache
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\CarteiraDoInvestidor.Domain.AssemblyInfo.cs
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\CarteiraDoInvestidor.Domain.csproj.CoreCompileInputs.cache
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\CarteiraDoInvestidor.Domain.csproj.CopyComplete
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\CarteiraDoInvestidor.Domain.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\refint\CarteiraDoInvestidor.Domain.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\CarteiraDoInvestidor.Domain.pdb
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\CarteiraDoInvestidor.Domain.genruntimeconfig.cache
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Domain\obj\Release\net6.0\ref\CarteiraDoInvestidor.Domain.dll
