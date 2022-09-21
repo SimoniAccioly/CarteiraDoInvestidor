@@ -1,4 +1,5 @@
-﻿using CarteiraDoInvestidor.Domain.Carteira.Repository;
+﻿using CarteiraDoInvestidor.CrossCuting.Infrastructure;
+using CarteiraDoInvestidor.Domain.Carteira.Repository;
 using CarteiraDoInvestidor.Domain.Conta.Repository;
 using CarteiraDoInvestidor.Repository.Context;
 using CarteiraDoInvestidor.Repository.Database;
@@ -21,6 +22,10 @@ namespace CarteiraDoInvestidor.Repository
             services.AddScoped<ICarteiraRepository, CarteiraRepository>();
             services.AddScoped<IAtivoRepository, AtivosRepository>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<AzureBlobStorage>();
+
+            
+
 
             return services;
         }

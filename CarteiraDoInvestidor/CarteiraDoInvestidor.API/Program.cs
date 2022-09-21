@@ -17,6 +17,7 @@ namespace CarteiraDoInvestidor.Api
 
             builder.Services
                    .RegisterApplication()
+                   .AddHttpClient()
                    .RegisterRepository(builder.Configuration.GetConnectionString("CarteiraDoInvestidor"));
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

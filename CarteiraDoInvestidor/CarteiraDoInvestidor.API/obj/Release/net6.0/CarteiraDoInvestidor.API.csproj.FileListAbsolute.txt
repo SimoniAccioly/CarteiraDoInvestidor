@@ -81,3 +81,13 @@ D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\Cartei
 D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\obj\Release\net6.0\CarteiraDoInvestidor.API.pdb
 D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\obj\Release\net6.0\CarteiraDoInvestidor.API.genruntimeconfig.cache
 D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\obj\Release\net6.0\ref\CarteiraDoInvestidor.API.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\Azure.Core.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\Azure.Storage.Blobs.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\Azure.Storage.Common.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\System.IO.Hashing.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\System.Memory.Data.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\Azure.Identity.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\Azure.Storage.Files.Shares.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\Azure.Storage.Queues.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Release\net6.0\Microsoft.Extensions.Azure.dll

@@ -158,3 +158,9 @@ D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\Cartei
 D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Api\bin\Debug\net6.0\EPPlus.Interfaces.dll
 D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Api\bin\Debug\net6.0\EPPlus.System.Drawing.dll
 D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.Api\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Debug\net6.0\Azure.Core.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\Simoni\Sources\Projeto_bloco\CarteiraDoInvestidor\CarteiraDoInvestidor\CarteiraDoInvestidor.API\bin\Debug\net6.0\System.Memory.Data.dll

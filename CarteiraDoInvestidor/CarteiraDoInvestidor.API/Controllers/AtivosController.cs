@@ -2,6 +2,7 @@
 using AtivosDoInvestidor.Application.Ativos.Handler.Command;
 using CarteiraDoInvestidor.Application.Carteira.Dto;
 using CarteiraDoInvestidor.Application.Carteira.Handler.Query;
+using CarteiraDoInvestidor.Domain.Carteira;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -31,7 +32,8 @@ namespace CarteiraDoInvestidor.API.Controllers
         public async Task<IActionResult> Create(AtivosInputDto dto)
         {
             var result = await this.mediator.Send(new CreateAtivoCommand(dto));
-            return Created($"{result.Ativo.Id}", result.Ativo);
+            return Ok(result);
+
         }
 
         [HttpGet]
