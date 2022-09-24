@@ -2,8 +2,7 @@
   "dependencies": {
     "storage1": {
       "type": "storage",
-      "connectionId": "BlobStorageConnection",
-      "dynamicId": null
+      "connectionId": "BlobStorageConnection"
     }
   }
 }

@@ -10,32 +10,17 @@ namespace CarteiraDoInvestidor.Application.Carteira.Service
     {
         private readonly IAtivoRepository ativoRepository;
         private readonly IMapper mapper;
-        private IHttpClientFactory httpClientFactory;
-        private AzureBlobStorage storage;
 
-        public AtivoService(IAtivoRepository ativoRepository, IMapper mapper, IHttpClientFactory httpClientFactory, AzureBlobStorage storage)
+        public AtivoService(IAtivoRepository ativoRepository, IMapper mapper)
         {
             this.ativoRepository = ativoRepository;
             this.mapper = mapper;
-            this.httpClientFactory = httpClientFactory;
-            this.storage = storage;
         }
 
         public async Task<AtivosOutputDto> Create(AtivosInputDto dto)
         {
-            var ativo = this.mapper.Map<Ativos>(dto);  
-                     
-            HttpClient httpClient = this.httpClientFactory.CreateClient();
+            var ativo = this.mapper.Map<Ativos>(dto);
 
-            using var response = await httpClient.GetAsync(ativo.ArquivoExcel);
-
-            if (response.IsSuccessStatusCode)
-            {
-                using var stream = await response.Content.ReadAsStreamAsync();
-                var filename = $"{Guid.NewGuid()}.xlsx";
-                var pathStorage = await this.storage.UploadFile(filename, stream);
-                ativo.ArquivoExcel = pathStorage;
-            }
             await this.ativoRepository.Save(ativo);
 
             return this.mapper.Map<AtivosOutputDto>(ativo);

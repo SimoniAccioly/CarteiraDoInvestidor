@@ -19,7 +19,6 @@ namespace CarteiraDoInvestidor.Repository.Mapping
             builder.Property(x => x.NomeCarteira).IsRequired().HasMaxLength(200);
             builder.Property(x => x.Descricao).IsRequired().HasMaxLength(1024);
             builder.Property(x => x.DataCriacao);
-
             builder.HasMany(x => x.Ativos).WithOne().OnDelete(DeleteBehavior.Cascade);
         }
     }

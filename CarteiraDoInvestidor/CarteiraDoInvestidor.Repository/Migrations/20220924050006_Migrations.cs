@@ -38,6 +38,24 @@ namespace CarteiraDoInvestidor.Repository.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Arquivos",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    LinkExcel = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CarteiraId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Arquivos", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Arquivos_Carteira_CarteiraId",
+                        column: x => x.CarteiraId,
+                        principalTable: "Carteira",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Ativos",
                 columns: table => new
                 {
@@ -47,7 +65,6 @@ namespace CarteiraDoInvestidor.Repository.Migrations
                     PrecoMedio = table.Column<double>(type: "float", nullable: false),
                     Corretora = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TaxaDeCorretagem = table.Column<double>(type: "float", nullable: false),
-                    ArquivoExcel = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CarteiraId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>
@@ -62,6 +79,11 @@ namespace CarteiraDoInvestidor.Repository.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Arquivos_CarteiraId",
+                table: "Arquivos",
+                column: "CarteiraId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Ativos_CarteiraId",
                 table: "Ativos",
                 column: "CarteiraId");
@@ -69,6 +91,9 @@ namespace CarteiraDoInvestidor.Repository.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Arquivos");
+
             migrationBuilder.DropTable(
                 name: "Ativos");
 

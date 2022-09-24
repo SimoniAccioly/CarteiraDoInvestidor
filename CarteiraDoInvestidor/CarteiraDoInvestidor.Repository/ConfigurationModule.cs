@@ -22,6 +22,7 @@ namespace CarteiraDoInvestidor.Repository
             services.AddScoped<ICarteiraRepository, CarteiraRepository>();
             services.AddScoped<IAtivoRepository, AtivosRepository>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IArquivoExcelRepository, ArquivosExcelRepository>();
             services.AddScoped<AzureBlobStorage>();
 
             

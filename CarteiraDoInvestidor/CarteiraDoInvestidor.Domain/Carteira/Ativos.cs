@@ -14,7 +14,7 @@ namespace CarteiraDoInvestidor.Domain.Carteira
         public double PrecoMedio { get; set; }
         public string Corretora { get; set; }
         public double TaxaDeCorretagem { get; set; }
-        public string ArquivoExcel { get; set; }
+
 
 
 

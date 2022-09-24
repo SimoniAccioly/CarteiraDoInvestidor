@@ -18,6 +18,7 @@ namespace CarteiraDoInvestidor.Application
             services.AddScoped<ICarteiraService, CarteiraService>();
             services.AddScoped<IAtivoService, AtivoService>();
             services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<IArquivoExcelService, ArquivoExcelService>();
 
 
             return services;

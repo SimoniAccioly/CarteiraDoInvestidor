@@ -8,9 +8,12 @@ namespace CarteiraDoInvestidor.Domain.Carteira
         public string Descricao { get; set; }
         public DateTime DataCriacao { get; set; }
         public virtual IList<Ativos> Ativos { get; set; }
+        public virtual IList<ArquivoExcel> LinkExcel { get; set; }
 
         public int QuantidadeAtivos()
             => this.Ativos.Count;
+        public int QuantidadeLinkExcel()
+            => this.LinkExcel.Count;
 
     }
 }

@@ -4,8 +4,7 @@
       "secretStore": "AzureAppSettings",
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/arquivoexcel",
       "type": "storage.azure",
-      "connectionId": "BlobStorageConnection",
-      "dynamicId": null
+      "connectionId": "BlobStorageConnection"
     }
   }
 }

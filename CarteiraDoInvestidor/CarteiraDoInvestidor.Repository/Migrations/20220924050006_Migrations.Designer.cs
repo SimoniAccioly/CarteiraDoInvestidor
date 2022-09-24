@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarteiraDoInvestidor.Repository.Migrations
 {
     [DbContext(typeof(CarteiraDoInvestidorContext))]
-    [Migration("20220920030037_Migrations")]
+    [Migration("20220924050006_Migrations")]
     partial class Migrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,15 +24,31 @@ namespace CarteiraDoInvestidor.Repository.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("CarteiraDoInvestidor.Domain.Carteira.Ativos", b =>
+            modelBuilder.Entity("CarteiraDoInvestidor.Domain.Carteira.ArquivoExcel", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("ArquivoExcel")
+                    b.Property<Guid?>("CarteiraId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("LinkExcel")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CarteiraId");
+
+                    b.ToTable("Arquivos", (string)null);
+                });
+
+            modelBuilder.Entity("CarteiraDoInvestidor.Domain.Carteira.Ativos", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("CarteiraId")
                         .HasColumnType("uniqueidentifier");
@@ -102,6 +118,13 @@ namespace CarteiraDoInvestidor.Repository.Migrations
                     b.ToTable("Usuarios", (string)null);
                 });
 
+            modelBuilder.Entity("CarteiraDoInvestidor.Domain.Carteira.ArquivoExcel", b =>
+                {
+                    b.HasOne("CarteiraDoInvestidor.Domain.Carteira.Carteira", null)
+                        .WithMany("LinkExcel")
+                        .HasForeignKey("CarteiraId");
+                });
+
             modelBuilder.Entity("CarteiraDoInvestidor.Domain.Carteira.Ativos", b =>
                 {
                     b.HasOne("CarteiraDoInvestidor.Domain.Carteira.Carteira", null)
@@ -159,6 +182,8 @@ namespace CarteiraDoInvestidor.Repository.Migrations
             modelBuilder.Entity("CarteiraDoInvestidor.Domain.Carteira.Carteira", b =>
                 {
                     b.Navigation("Ativos");
+
+                    b.Navigation("LinkExcel");
                 });
 #pragma warning restore 612, 618
         }

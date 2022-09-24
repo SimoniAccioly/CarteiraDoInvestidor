@@ -25,15 +25,15 @@ namespace CarteiraDoInvestidor.CrossCuting.Infrastructure
 
             if (string.IsNullOrWhiteSpace(directory) == false)
             {
-                container = blobServiceClient.GetBlobContainerClient($"excel/{directory}");
+                container = blobServiceClient.GetBlobContainerClient($"arquivoexcel/{directory}");
                 await container.UploadBlobAsync(fileName, buffer);
-                return $"{this.configuration["BlobStorageBasePath"]}/excel/{directory}/{fileName}";
+                return $"{this.configuration["BlobStorageBasePath"]}/arquivoexcel/{directory}/{fileName}";
             }
 
-            container = blobServiceClient.GetBlobContainerClient($"excel");
+            container = blobServiceClient.GetBlobContainerClient($"arquivoexcel");
             await container.UploadBlobAsync(fileName, buffer);
 
-            return $"{this.configuration["BlobStorageBasePath"]}/excel/{fileName}";
+            return $"{this.configuration["BlobStorageBasePath"]}/arquivoexcel/{fileName}";
 
         }
     }
