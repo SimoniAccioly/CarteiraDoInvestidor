@@ -37,7 +37,7 @@ namespace CarteiraDoInvestidor.Application.Carteira.Service
             if (response.IsSuccessStatusCode)
             {
                 using var stream = await response.Content.ReadAsStreamAsync();
-                var filename = $"{Guid.NewGuid()}.xlsx";
+                var filename = $"{Guid.NewGuid()}";
                 var pathStorage = await this.storage.UploadFile(filename, stream);
                 arquivoexcel.LinkExcel = pathStorage;
             }
